@@ -4,7 +4,7 @@ A simple tool to generate an Assign Message policy from a JSON OpenAPI Spec.
 ## Dependencies
 
 - jq
-- libxml2
+- libxml2-utils
 
 ## Current Behaviour
 
