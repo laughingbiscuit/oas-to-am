@@ -1,6 +1,14 @@
 # OpenAPI Specification to Assign Message
 A simple tool to generate an Assign Message policy from a JSON OpenAPI Spec.
 
+## Usage
+
+```
+git clone https://github.com/laughingbiscuit/oas-to-am
+export PATH=$PATH:$PWD/oas-to-am/bin #you can add this to your .bashrc too
+SPEC=./path/to/spec.json OPERATION=operationId oas-to-am
+```
+
 ## Dependencies
 
 - jq
